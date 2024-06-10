@@ -17,10 +17,13 @@
 }
 #image {
   width: 12vw;
-   height:25vh;
-  @media screen and (max-width: 768px) {
-    width: 70vw; /* Adjusted width for smaller screens */
-    height: 40vh; /* Adjusted right spacing for smaller screens */
-    
+   height: 200px;
+   @media screen and (max-width: 950px) {
+    width: 150px; /* Adjusted width for smaller screens */
+    height: 200px
+  }
+  @media screen and (max-width: 500px) {
+    width: 115px; /* Adjusted width for smaller screens */
+    height: 150px; /* Adjusted right spacing for smaller screens */ 
   }
 }
