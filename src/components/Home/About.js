@@ -42,7 +42,7 @@ function AppAbout() {
         <Row gutter={[16, 16]}>
           {items.map((item) => {
             return (
-              <Col md={20} xs={24} lg={8} key={item.key}>
+              <Col md={8}  sm={24} lg={8} key={item.key}>
                 <div className="content">
                   <div className="icon">
                     {item.icon}
