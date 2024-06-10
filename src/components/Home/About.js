@@ -31,7 +31,7 @@ function AppAbout() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>من نحن ؟ </h2>   
-          <Image src={Logo} id='image' style={{width: "12vw", height:"25vh"}}  preview={false}/>
+          <Image src={Logo} id='image'   preview={false}/>
           <p>شركة Gear Genesis لملحقات الكمبيوتر</p>
         </div>
         <div className="contentHolder">
