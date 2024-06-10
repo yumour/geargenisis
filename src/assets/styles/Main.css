@@ -1,0 +1,59 @@
+.heroBlock {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  position: relative;
+  width: 80vw; /* Adjusted to occupy full width */
+  height: 80vh; /* You can adjust this height as needed */
+  padding-top: 5vh;
+  /* Added media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    height: 100vh; /* Adjusted height for smaller screens */
+  }
+}
+
+#carousel-image {
+  
+  top: 0;
+  left: 0;
+  width: 80vw;
+ 
+    object-fit: cover;
+  @media screen and (max-width: 768px) {
+    height: 90vh; /* Adjusted height for smaller screens */
+    object-fit: cover;
+  } 
+}
+
+.carousel-card {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  border: none;
+  -webkit-backdrop-filter: brightness(0.5);
+  backdrop-filter: brightness(0.5);
+  width: 25%; /* Adjust as necessary */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional for better readability */
+
+  /* Added media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    width: 50%; /* Adjusted width for smaller screens */
+    right: 0%; /* Adjusted right spacing for smaller screens */
+    left: 50%;
+opacity: 0.9;    
+    transform: translate(-50%, -50%);
+    padding: 2%;
+  }
+
+  /* Additional media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    width: 70%; /* Adjusted width for even smaller screens */
+    right: 0; /* Adjusted right spacing for even smaller screens */
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,118 @@
+import controller from "../../assets/images/controller.jpeg"
+import controller1 from "../../assets/images/controller1.jpeg"
+import controllerB from "../../assets/images/controllerblue.jpeg"
+import controllerB1 from "../../assets/images/controllerblue1.jpeg"
+
+const controllers =[
+    {
+        id: 5,
+        title: "Controller Gear 1 ",
+        description: "جهاز تحكم لتمتع بالالعاب.",
+        category: "حهاز تحكم",
+        price: 999.99,
+        discountPercentage: 10,
+        rating: 4.0,
+        stock: 120,
+        tags: ["جايمينج"],
+        brand: "تك براند",
+        sku: "TB-EM-100",
+        weight: 150,
+        dimensions: {
+          width: 6.5,
+          height: 4,
+          depth: 3,
+        },
+        warrantyInformation: "ضمان محدود لمدة سنة واحدة",
+        shippingInformation: "يشحن خلال يومين عمل.",
+        availabilityStatus: "متوفر في المخزون",
+        reviews: [
+          {
+            rating: 5,
+            comment: "ماوس ممتاز ومريح جدًا للاستخدام!",
+            date: "2024-01-15",
+            reviewerName: "جون دو",
+            reviewerEmail: "john.doe@example.com",
+          },
+          {
+            rating: 4,
+            comment: "قيمة رائعة مقابل المال.",
+            date: "2024-01-20",
+            reviewerName: "جين سميث",
+            reviewerEmail: "jane.smith@example.com",
+          },
+          {
+            rating: 4,
+            comment: "أداء جيد، لكن عمر البطارية يمكن أن يكون أفضل.",
+            date: "2024-02-10",
+            reviewerName: "مايك براون",
+            reviewerEmail: "mike.brown@example.com",
+          },
+        ],
+        returnPolicy: "سياسة إرجاع لمدة 30 يومًا.",
+        minimumOrderQuantity: 1,
+        meta: {
+          createdAt: "2024-01-01T12:00:00Z",
+          updatedAt: "2024-06-10T12:00:00Z",
+          barcode: "012345678912",
+          qrCode: "http://example.com/qrcode",
+        },
+        images: [controller, controller1],
+        thumbnail: controller,
+      },
+      {
+        id: 6,
+        title: "Controller Gear 2 ",
+        description: "جهاز تحكم لاسلكي لتمتع بالالعاب.",
+        category: "حهاز تحكم",
+        price: 1299.99,
+        discountPercentage: 10,
+        rating: 4.0,
+        stock: 120,
+        tags: ["جايمينج","لاسلكي"],
+        brand: "تك براند",
+        sku: "TB-EM-100",
+        weight: 150,
+        dimensions: {
+          width: 6.5,
+          height: 4,
+          depth: 3,
+        },
+        warrantyInformation: "ضمان محدود لمدة سنة واحدة",
+        shippingInformation: "يشحن خلال يومين عمل.",
+        availabilityStatus: "متوفر في المخزون",
+        reviews: [
+          {
+            rating: 5,
+            comment: "ماوس ممتاز ومريح جدًا للاستخدام!",
+            date: "2024-01-15",
+            reviewerName: "جون دو",
+            reviewerEmail: "john.doe@example.com",
+          },
+          {
+            rating: 4,
+            comment: "قيمة رائعة مقابل المال.",
+            date: "2024-01-20",
+            reviewerName: "جين سميث",
+            reviewerEmail: "jane.smith@example.com",
+          },
+          {
+            rating: 4,
+            comment: "أداء جيد، لكن عمر البطارية يمكن أن يكون أفضل.",
+            date: "2024-02-10",
+            reviewerName: "مايك براون",
+            reviewerEmail: "mike.brown@example.com",
+          },
+        ],
+        returnPolicy: "سياسة إرجاع لمدة 30 يومًا.",
+        minimumOrderQuantity: 1,
+        meta: {
+          createdAt: "2024-01-01T12:00:00Z",
+          updatedAt: "2024-06-10T12:00:00Z",
+          barcode: "012345678912",
+          qrCode: "http://example.com/qrcode",
+        },
+        images: [controllerB, controllerB1],
+        thumbnail: controllerB,
+      },
+]
+export default controllers;
