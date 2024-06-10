@@ -8,7 +8,7 @@ const items = [
     key: '1',
     icon: <CheckCircleTwoTone twoToneColor="#52c41a" />,
     title: 'الجودة',
-    content: ' نحن ملتزمون بتقديم منتجات عالية الجودة تلبي توقعات عملائنا',
+    content: 'نقدم منتجات عالية الجودة تلقى توقعات عملائنا',
   },
   {
     key: '2',
