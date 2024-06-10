@@ -15,7 +15,12 @@
 .login-form-button {
   width: 100%;
 }
-image {
- /* safari 6.0 - 9.0 */
-          backdrop-filter: invert(100%);
+#image {
+  width: 12vw;
+   height:25vh;
+  @media screen and (max-width: 768px) {
+    width: 70vw; /* Adjusted width for smaller screens */
+    height: 40vh; /* Adjusted right spacing for smaller screens */
+    
+  }
 }
