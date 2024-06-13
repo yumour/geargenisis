@@ -12,7 +12,7 @@ function AppContact() {
           <h2>تواصل معنا </h2>
           <p>اذا لديكم اي استفسارات الرجاء التواصل معنا </p>
           Geargenisis@gmail.com  <MailOutlined  style={{fontSize:"18px"}}/><br/>
-          06-96-37-64-54  <PhoneOutlined  style={{fontSize:"18px"}}/>
+          06-76-15-11-51  <PhoneOutlined  style={{fontSize:"18px"}}/>
   
         </div>
         <Form
